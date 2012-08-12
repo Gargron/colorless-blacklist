@@ -29,4 +29,16 @@ Please fork and play with it. All help is appreciated, and if you have
 plausible additions to the code I'll most likely accept your pull
 request.
 
+### Dependencies
+
+This extension includes and depends on jQuery.
+
+### Weak points
+
+The icons are doing pretty bad. I don't have my old graphic folders at
+hand, so I used what I could. `icon.png` is fine, but the other icons
+are terrible. Especially the bigger versions are completely blurry.
+
+### Attribution
+
 **Author**: Eugen Rochko <gargron@gmail.com>
