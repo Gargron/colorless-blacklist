@@ -1,0 +1,25 @@
+{
+  "name": "Colorless Blacklist",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "description": "Lets you blend out posts by certain users on theColorless.net",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://thecolorless.net/*"],
+      "js": ["jquery.js", "app.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
